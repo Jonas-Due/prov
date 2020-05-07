@@ -1,0 +1,51 @@
+.bg-jonas {
+  background-color: rgba(108, 117, 125, 0.7);
+}
+
+/* CSS för gymnamnet i menyraden */
+.navbar-brand {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size:28px;
+  text-transform:uppercase;
+  text-decoration: none;
+  color:#fff;
+  padding:0;
+  font-weight:700;
+  text-shadow: 2px 2px 2px #000;
+  padding: 10px;
+}
+
+/* CSS för slidebilderna */
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* CSS för rubriken i slidern */
+.carousel-caption > h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size:22px;
+  text-transform:uppercase;
+  text-decoration: none;
+  color:#fff;
+  padding:0;
+  font-weight:700;
+  text-shadow: 2px 2px 2px #000;
+  padding: 10px;
+}
+
+/* CSS för underrubriken i slidern */
+.carousel-caption > p {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size:14px;
+  text-decoration: none;
+  color:#fff;
+  padding:0;
+  font-weight:700;
+  text-shadow: 2px 2px 2px #000;
+  padding: 10px;
+}

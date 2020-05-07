@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Source+Sans+Pro:300,400&display=swap');
+
+
+/* CSS för bakgrundsfärgen */
+body {
+  background-color: #f3f3f3;
+}
+
+.message {
+  padding-top: 10px;
+  text-align: left;
+  font-size: 28px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-transform:uppercase;
+  }
+/*CSS för den synliga panelen */
+  .panel {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+    border: 1px solid #2b2b2b;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+  }
+/* CSS för välkomstmeddelandet i body */
+.my-4 {
+  text-align: left;
+  font-size: 28px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-transform:uppercase;
+  }
+
+/* CSS för kortrubrikerna */
+.card-header {
+    background-color: #fff;
+    display: block;
+    color: #2b2b2b;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* CSS för bakgrundsfärgen i botten av korten */
+.card-footer {
+  background-color: #fff;
+}
+
+.intressen {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-transform:uppercase;
+  }
+
+.col-lg-12 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+ }
+
+/* CSS för parallaxen vi gjorde förra lektionen */
+  #parallax {
+    background-image: url('img/header.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS för texten i parallaxen */
+#parallax .tagline {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size:28px;
+  text-transform:uppercase;
+  padding: 15px 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+}
+
+.profile .img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+
+
+/* CSS för egen färg i knapp. */
+.btn-jonas {
+  background-color: #2b2b2b;
+}
+
+/* CSS för footer */
+.footer, .py-5, .bg-secondary {
+  text-transform:uppercase;
+  font-family: 'Source Sans Pro', sans-serif; 
+}

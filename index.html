@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Due Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navigate.style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-jonas fixed-top">
+        <div class="container">
+            <!-- Logo/namn -->
+            <a class="navbar-brand" href="index.html">Due Portfolio!</a>
+            <!-- Dropdownmeny -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Första rubriken -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Om mig</a>
+                    </li>
+                    <!-- Andra rubriken. Med dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Mina uppdrag
+                        </a>
+                        <!-- Dropdownlänkar -->
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">Portfolio</a>
+                            <a class="dropdown-item" href="#">Landskap</a>
+                            <a class="dropdown-item" href="#">Stilleben</a>
+                        </div>
+                    </li>
+                    <!-- Tredje rubriken -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Min utrustning</a>
+                    </li>
+                    <!-- Fjärde rubriken -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <!-- Indikatorerna längst ner på sliden -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <!-- Slide 1 -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style="background-image: url('img/h1_hero.jpg')">
+                    <!-- Synligheten på olika storleker av enheter.
+                        Synlig på mediumstora enheter. d-md-block. Bilden blir 768 pixlar och större.
+                    Osynlig på mindre enheter. d.none -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Jag är Jonas Due</h3>
+                        <p>och du är välkommen till min hemsida.</p>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url('img/header.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Professionell fotografering</h3>
+                        <p>På allra högsta nivå</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Indikator på sidan av slidern. Bakåt-Vänster -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <!-- Indikator på sidan av slidern. Framåt-Höger. -->
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Rubrik -->
+    <section class="container">
+        <section id="enter">
+            <h1 class="message"></h1>
+            <article id="content">
+
+            </article>
+        </section>
+
+
+        <!-- Kort Sektion -->
+        <div class="row">
+
+            <div class="col-lg-6 mb-6">
+
+                <div class="card h-100">
+                    <h4 class="card-header">Djurbilder</h4>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/pic04.jpg" alt="Bääh">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
+                            necessitatibus neque.</p>
+                    </div>
+                    <div class="card-footer">
+
+                        <a href="#" class="btn btn-success btn-jonas">Jag vill veta mer</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Andra kortet -->
+            <div class="col-lg-6 mb-6">
+                <div class="card h-100">
+                    <h4 class="card-header">Naturbilder</h4>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/pic01.jpg" alt="Naturbild">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam
+                            eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque
+                            exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+                    </div>
+                    <div class="card-footer">
+
+                        <a href="#" class="btn btn-success btn-jonas">Jag vill veta mer</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6 mb-6">
+
+                <div class="card h-100">
+                    <h4 class="card-header">Närbilder</h4>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/pic02.jpg" alt="Närbild">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
+                            necessitatibus neque.</p>
+                    </div>
+                    <div class="card-footer">
+
+                        <a href="#" class="btn btn-success btn-jonas">Jag vill veta mer</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Andra kortet, Andra raden -->
+            <div class="col-lg-6 mb-6">
+                <div class="card h-100">
+                    <h4 class="card-header">Landskapsbilder</h4>
+                    <div class="card-body">
+                        <img class="card-img-top" src="img/pic03.jpg" alt="Landskap">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam
+                            eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque
+                            exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-success btn-jonas">Jag vill veta mer</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <!-- Intressen -->
+        <div id="absolut" class="panel">
+            <h1 class="intressen">Mina intressen</h1>
+            <p class="card-text">Vill du veta vilka intressen jag har utöver fotografering?</p>
+            <div>
+                <button class="btn btn-success btn-jonas" id="okButton">Självklart</button>
+            </div>
+        </div>
+        <div id="aboutme" class="row" hidden>
+            <!-- Responsiv kolumn. Large=maxbredd 960 px. -->
+            <div class="col-lg-12">
+                <h2>Intressen</h2>
+                <p>Jag har många andra intressen såsom:</p>
+                <ul id="list">
+
+                </ul>
+                <div class="profile">
+                    <img class="profile" height="250" src="img/aboutme.png" alt="Det här är inte jag">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id
+                    reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia
+                    dolorum ducimus unde.</p>
+            </div>
+
+        </div>
+        <hr>
+
+
+        <!-- Parallax från förra lektionen. I like... ;) -->
+        <section id="parallax">
+            <article class="tagline">
+                <h3 class="text-center text-light">En bild säger mer 1 000 ord!</h3>
+            </article>
+        </section>
+        <hr>
+        <!-- Två kolumner med olika bredd. Den vänstra är 8 bred och den högra är 4 bred. -->
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum
+                    deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+            </div>
+            <div class="col-md-4">
+                <a class="btn btn-lg btn-success btn-jonas" href="#">Kontakta mig nu!</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer
+    py-05 ger padding både topp och botten-->
+    <footer class="py-5 bg-secondary">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Jonas Due ( ͡° ͜ʖ ͡°) 2020</p>
+        </div>
+
+    </footer>
+    <!-- Bootstrap / JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
